@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    height: 100%; 
+    margin: 0;
+}
 
 header{
     background-color: #000000;
@@ -11,18 +15,12 @@ header{
     
     font-size: x-large;
     height: 3em;
-    margin: 0;
-
-    
-    
 }
 
 .HelpCenterLink{
     margin-top: 10em;
     color: #fff;
     cursor: pointer;   
-
-
 }
 
 .HelpCenterLink:hover{
@@ -138,7 +136,90 @@ header{
     justify-content: center;
 }
 
-.Images{
+.Image{
     height: 5em;
     float: left;
+    margin: 1em;
+}
+
+.ImageFields{
+    display: flex;
+}
+
+
+footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    
+    height: 20em;
+    position: relative;
+}
+
+
+.Left{
+    display: grid;
+    justify-content: right;
+    width: 60%;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.HeaderFotter{
+    color: #fff;
+    font-size: 1.5em;
+
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+}
+
+.Link:hover{
+    text-decoration: underline;
+}
+.Link::after{
+    color: white;
+}
+
+.ContactUs{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+
+.RightDown{
+    position: absolute;
+    bottom: 4em; 
+    right: 3em;
+    width: 20%;
+}
+
+
+.GhostFooter{
+    width: 3em;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.Helper{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+.ButtonHelperPurple{
+    background-color: #4C5FD5;
+    color: white;
+    border-radius: 5em;
+    cursor: pointer;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    
 }
