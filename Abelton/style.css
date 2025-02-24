@@ -1,0 +1,82 @@
+
+@media(min-width: 1500px){
+    body{
+        width: 1500px;
+        margin: auto;
+        background-color: white;
+    }
+    html{
+        background-color: whitesmoke;
+    }
+}
+
+
+@media(min-width: 1000px){
+    html{
+        width: 100%;
+        height: 10000px;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    .MenuImg{
+        height: 4em;
+        margin-right: 2vw;
+    }
+
+    .MenuTxt{
+        margin-right: 1vw;
+        margin-left: 1vw;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+    }
+
+
+
+    .LinkMenu{
+        color: black;
+        text-decoration: none;
+    }
+    .LinkMenu:hover{
+        text-decoration: underline;
+    }
+    .LinkMenu::after{
+        color: black;
+    }
+
+
+    .Orange{
+        color: #ff764d;
+    }
+
+    .RightHeader{
+        margin-left: auto;
+    }
+    .Blue{
+        color: #0000ff;
+    }
+    .Bold{
+        font-weight: bold;
+
+    }
+    .Margin{
+        margin: 1vw;
+    }
+
+   
+    
+    nav{
+        border-top: solid 2px gainsboro;
+        padding: 1em;
+    }
+    
+}
+@media (max-width: 1000px) {
+    body{
+        background-color: black;
+    }
+}
