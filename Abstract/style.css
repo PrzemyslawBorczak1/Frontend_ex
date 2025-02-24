@@ -1,3 +1,9 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 header{
     background-color: #000000;
     padding: 1em;
@@ -7,6 +13,7 @@ header{
     height: 3em;
     margin: 0;
 
+    
     
 }
 
@@ -26,6 +33,7 @@ header{
 .NavButton{
     display: flex;
     float: right;
+
     border-radius: 1em;
     height: 3em;
     
@@ -33,9 +41,10 @@ header{
     text-align: center;
     margin-right: 2em;
     font-size: inherit;
+
     padding: 1em;
     
-    
+    align-items: center;
 }
 
 
@@ -44,7 +53,7 @@ header{
     border: 2px solid white;
     color: white;
 
-    
+
 }
 
 .SignInButton:hover{
@@ -57,12 +66,79 @@ header{
     background-color: #4C5FD5;
     color: white;
 
+    box-shadow: none;
     
 }
 
 
 .HelpSection{
-    margin: 0;
-    background-color: #4C5FD5;
+    background-color: #dadbf1;
 
+    box-sizing: border-box;
+
+    padding: 5em;
+    text-align: center;
+}
+
+
+.HelpWriting{
+    font-size: 3.5em;
+    margin: 0;
+
+    font-weight: 545;
+
+}
+
+.SearchDiv{
+    width: 60%;
+    height: 4em;
+
+    margin: 4em auto;
+    
+    color: darkgrey;
+    
+    align-items:center;
+    display: flex;
+
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+
+.Search{
+    height: 100%;
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 1.5em;
+
+}
+
+
+.Arrow{
+    height: 100%;
+    width: 5%;
+    cursor: pointer;
+    background-image: url(arrow.svg);
+    margin-left: 2em;
+
+    background-repeat: no-repeat; 
+    background-position: center;
+
+    border: none;
+    background-color: inherit;
+}
+
+
+.Widgets{
+    margin: 3em;
+    display: grid;
+    grid-template-columns:  30%  30%;
+    gap: 2em;
+    justify-content: center;
+}
+
+.Images{
+    height: 5em;
+    float: left;
 }
